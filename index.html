@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Список справ</title>
+</head>
+<body>
+  <div id="app">
+    <h1 class="center-text">Список справ</h1>
+    <button id="addListBtn" onclick="createNewList()">Додати новий список</button>
+    <label for="listSelect">Оберіть або створіть список:</label>
+    <select id="listSelect" onchange="changeList()"></select>
+    <button id="deleteListBtn" onclick="deleteList()">Видалити поточний список</button>
+    <div class="input-container">
+        <input type="text" id="newTask" placeholder="Додати нову справу">
+        <button id="addTaskBtn" onclick="addTask()">+</button>
+      </div>
+    <ul id="taskList"></ul>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>

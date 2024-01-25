@@ -1,0 +1,87 @@
+body {
+    font-family: "Gill Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  #app {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #e2e2e2;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .center-text {
+    text-align: center;
+  }
+  
+  .input-container {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  #addTaskBtn {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 1.5em;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  
+  #addListBtn {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 100%;
+    
+  }
+
+  #listSelect {
+    margin-top: 25px;
+  }
+
+  #deleteListBtn {
+    cursor: pointer;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+  }
+  
+  .completed {
+    background-color: #d3ffd3;
+  }
+  
+  .completeTask {
+    background-color: #ffffff;
+    border-radius: 0;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  .deleteTask {
+    border-radius: 0;
+    border-style: hidden;
+    background-color: #e2e2e2;
+    cursor: pointer;
+  }
